@@ -1,13 +1,12 @@
 body{
    
-    background-image: linear-gradient(to right,rgb(161, 108, 185), #bedee9);
+    background-image: linear-gradient(to right,rgb(161, 108, 185), #0ae7c2);
     text-decoration-color:rgb(13, 13, 153);
 }
 
  #chgtxtcol {color: #fcfcfc;
     font-size: 20px;
     font-weight: bold;
-
  }
 
 header{
@@ -42,4 +41,8 @@ a:hover {
   color: rgb(234, 236, 245);
   background-color: transparent;
   text-decoration: underline;
+}
+
+#pic1{
+margin-right:160px;
 }

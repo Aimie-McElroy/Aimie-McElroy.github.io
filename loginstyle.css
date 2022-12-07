@@ -1,0 +1,22 @@
+
+Text {
+    color: rgb(240, 244, 248);
+    font-size: 15px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+    body{
+        background-image: url("sun1.jpg");
+    }
+    
+    .button{
+        width: 100px;
+        height: 30px;
+        background-color: rgb(235, 223, 217);
+        border-radius: 12px;
+        border-color: rgb(243, 228, 11);
+    
+    }
+    
+   

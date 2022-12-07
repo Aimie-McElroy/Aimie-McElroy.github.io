@@ -2,25 +2,25 @@
 <html lang="en">
 <head> 
     <script src="login.js"></script>
+    <link rel="stylesheet" href="loginstyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UAT Login</title>
 </head>
 <body>
-    <h1>Welcome to UAT Space</h1>
-    <H3>Please log in</H3>
+    <Text><h1>Welcome to UAT Space</h1></Text>
+    <Text><H3>Please log in</H3></Text>
     <br>
     <br>
-    <div id = "loginStatus">Login Status</div>
+    <Text><div id = "loginStatus">Login Status</div></Text>
     <br>
     <br>
     <form id="creditSubmit" onsubmit="return false">
-        First Name: <input type="text" id ="fName"/><br>
-        Last Name: <input type="text" id ="lName"/><br>
-        Badge Number: <input type="number" id ="badgeID"/><br>
+        <Text>First Name: <input type="text" id ="fName"/><br></Text>
+        <Text> Last Name: <input type="text" id ="lName"/><br></Text>
+        <Text> Badge Number: <input type="number" id ="badgeID"/><br></Text>
         <br>
-        <input type="submit" onclick="checkCreds();">
-    </form>
+        <button><input type="submit" class="button" onclick="checkCreds();"></button>
 </body>
 </html>
