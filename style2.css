@@ -1,0 +1,45 @@
+body{
+   
+    background-image: linear-gradient(to right,rgb(161, 108, 185), #bedee9);
+    text-decoration-color:rgb(13, 13, 153);
+}
+
+ #chgtxtcol {color: #fcfcfc;
+    font-size: 20px;
+    font-weight: bold;
+
+ }
+
+header{
+text-align: center;
+}
+nav{
+height:600px;
+width:120px;
+float:left;
+padding: 5px;
+line-height:30px;
+}
+
+footer{
+    text-align: center;
+}
+
+style
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(243, 236, 238);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(234, 236, 245);
+  background-color: transparent;
+  text-decoration: underline;
+}

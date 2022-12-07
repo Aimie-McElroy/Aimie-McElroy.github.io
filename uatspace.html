@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+UAT Space page for CSC102 at UAT.edu
+by Aimie McElroy
+AIMMCELR@uat.edu
+
+Assignment:Launching your UAT Space Program HTML Document Tags
+13Sep2022
+Webpage with html and CSS 
+-->
+<html>
+
+<head>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="launchDataDis.js"></script>
+    <script src="dataLoader.js"></script>
+    <title>
+        Aimie McElroy's UAT Space Page
+    </title>
+    <script>
+        var theTime = new Date();
+        var time_interval = 5000;
+        var running = true;
+        var index = 0;
+        var timer;
+        var data = getData();
+    </script>
+</head>
+
+
+<body>
+    <table>
+        <!--thr UATSpace logo, downloaded from  https://synchronic.uat.edu/courses/5195/assignments/187442-->
+        <td><img src="UATspaceLogo-1 (2).jpg"></td>
+        <!--UAT Space Program Next to it-->
+        <td>
+            <h1>UAT Space Program</h1>
+        </td>
+         
+    </table>
+   <nav>
+    <h2>
+        Navigation
+    </h2>
+    <a href="./index.html">Home</a><br>
+    <a href="./boardsAA.html">Boards</a><br>
+    <a href="./login.html">UAT Space Page</a>
+</nav>
+    <br>
+    <br>
+    <table border="2" width="70%" id="dataTable">
+        <col style ="width: 35%;">
+        <col style ="width: 35%;">
+        <head>
+            <th>Data Type</th>
+            <th>Reading</th>
+        </head>
+
+        <tbody>
+            <tr id="seconds"><tr>
+            <tr id="latitude"><tr>
+            <tr id="longitude"><tr>
+            <tr id="gps altitude"><tr>
+            <tr id="bmp sensor altitude"><tr>
+            <tr id="bmp sensor pressure"><tr>
+             <tr id="bmp sensor temperature"><tr>
+           <tr id="digital sensor temperature"><tr>
+            <tr id="css sensor temperature"> <tr>
+            <tr id="css sensor eCO2"><tr>
+            <tr id="css sensor TVOC"><tr>
+            <tr id="uv"><tr>
+            <tr id="accel X"><tr>
+            <tr id="accel Y"><tr>
+            <tr id="accel Z"><tr>
+            <tr id="magnetic X"><tr>
+            <tr id="magnetic Y"><tr>
+            <tr id="magnetic Z"><tr>
+            <tr id="gyro X"><tr>
+            <tr id="gyro Y"><tr>
+            <tr id="gyro Z"><tr>
+                
+        </tbody>
+    </table>
+<br>
+The current time is: <div id="clockTime">Press start to display current</div>
+    <br>
+    <br>
+    <button onclick="startFun();" id="startButton" class="button">Start</button>
+    <button onclick="stopFun();" id="stopButton" class="button">Stop</button>
+    <script type="text/javascript"></script>
+    <br>
+    <br>
+    
+    <!--place to play CrapS-->
+    <h1>Craps Game </h1>
+    <div id="die1Res">The die 1 result will go here</div><br>
+    <div id="die2Res">The die 2 result will go here</div><br>
+    <div id="gameRes">The game result will go here</div><br>
+    <button onclick="playcraps();"class="button"> Play Craps </button>
+
+    <br>
+    <br>
+    <!--Insert Sound-->
+    <h1>Play a sound</h1>
+<button class="buttonlg" onclick="Playstation();">Play Space Station Sounds</button><br><!--add button to start playstation-->
+<button class="buttonlg" onclick="PlayStar();">Play Star Wars</button><!--add button to start playstar-->
+
+</body>
+
+</html>
