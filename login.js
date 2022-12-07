@@ -17,6 +17,6 @@ function checkCreds() {
         document.getElementById("loginStatus").innerHTML = "invalid Badge Number please try again";
     } else {
         alert("Access Granted, welcome " + fullName);
-        location.replace("./UATSpace.html");
+        location.replace("./uatspace.html");
     }
 }
