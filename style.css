@@ -38,7 +38,7 @@ body{
 }
 nav{
     height:1200px;
-    width:250px;
+    width:220px;
     float:left;
     padding: 5px;
     line-height:30px;
@@ -68,5 +68,5 @@ header{
 
 footer{
 text-align: center;
-margin-right: 400px;
+margin-right: 200px;
 }
